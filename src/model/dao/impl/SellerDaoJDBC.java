@@ -99,7 +99,7 @@ public class SellerDaoJDBC implements SellerDao {
 			if(rows == 0) {
 				System.out.println("No exist this id!");
 			} else {
-				System.out.println("Delete successed!");
+				System.out.println("Delete successed");
 			}
 		} catch ( SQLException e) {
 			throw new DbException(e.getMessage());
