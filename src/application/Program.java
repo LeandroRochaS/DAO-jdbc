@@ -55,7 +55,6 @@ public class Program {
 		System.out.println("Enter id for delete test: ");
 		int idDelete = sc.nextInt();
 		sellerDao.deleteById(idDelete);
-		System.out.println("Successfully Deleted!");
 		
 		
 		
